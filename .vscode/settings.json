@@ -5,7 +5,19 @@
     "**/.hg": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
-    ".vscode": true
+    ".vscode": true,
+    "client/node_modules": true,
+    "client/.gitignore": true,
+    "client/eslint.config.js": true,
+    "client/index.html": true,
+    "client/README.md": true
   },
-  "hide-files.files": [".vscode"]
+  "hide-files.files": [
+    ".vscode",
+    "client/node_modules",
+    "client/.gitignore",
+    "client/eslint.config.js",
+    "client/index.html",
+    "client/README.md"
+  ]
 }
